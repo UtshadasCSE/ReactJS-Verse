@@ -1,0 +1,94 @@
+body{
+    background-color: #1D5D9B;
+}
+nav{
+    padding:10px 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAF3F0;
+    border-radius: 10px;
+}
+ul li{
+    list-style: none;
+   
+}
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    padding: 0 20px;
+}
+.nBtn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #F31559;
+    border-radius: 5px;
+
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.headIng{
+    font-size: 50px;
+}
+.leftSide{
+    width: 60%;
+}
+.about{
+    line-height: 30px;
+}
+.btnContent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+  
+    
+}
+.shop{
+    
+    margin-right: 20px;
+}
+.shop button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #FCAEAE;
+    border-radius: 5px;
+}
+.catBtn button{
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.rightSide{
+    width: 40%;
+}
+.shareContent{
+    margin-top: 30px;
+}
+.icon li{
+    list-style: none;
+ 
+}
+.icon{
+    margin-top: 15px;
+    display: flex;
+}
