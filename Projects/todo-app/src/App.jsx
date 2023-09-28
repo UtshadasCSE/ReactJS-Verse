@@ -25,14 +25,23 @@ function App() {
           }}
           placeholder="Add your task"
         />
-        <button onClick={todoList}> ADD</button>
+        <button className="add" onClick={todoList}>
+          {" "}
+          ADD
+        </button>
         <table>
           <tbody>
             {list.length !== 0 ? (
               list.map((element, index) => {
                 return (
-                  <tr>
-                    <td>{element}</td>
+                  <tr className="listIn">
+                    <ol>
+                      <li>
+                        {" "}
+                        <td className="item">{element}</td>
+                      </li>
+                    </ol>
+
                     <td>
                       <button
                         className="remove"
