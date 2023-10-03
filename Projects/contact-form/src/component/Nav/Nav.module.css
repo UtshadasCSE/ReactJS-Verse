@@ -1,0 +1,15 @@
+.nav{
+    padding: 0 8px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.nav ul{
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
