@@ -1,0 +1,108 @@
+#contact {
+  margin-top: 5rem;
+  height: 70vh;
+  width: 100vw;
+}
+.contactTitle {
+  margin: 0 auto;
+  display: block;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  border-bottom: 2px solid yellow;
+  width: 20%;
+}
+.contactPara {
+  text-align: center;
+}
+.form {
+  width: 70%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.inputF {
+  width: 60%;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #363232;
+  border-radius: 0.5rem;
+}
+.inputF::placeholder {
+  color: white;
+}
+.btnSub {
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 30%;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  transition: 0.4s ease-in-out;
+}
+.btnSub:hover {
+  box-shadow: 0 0 30px #192655;
+}
+.linkImg {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 0.4rem;
+}
+.linkIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.linkIcon:hover {
+  background-color: yellow;
+}
+.linkIn {
+  height: 25px;
+  width: 25px;
+}
+.linkIn:hover {
+  border: 2px solid yellow;
+}
+@media screen and (max-width: 376px) {
+  .contactTitle {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .contactPara {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .form {
+    width: 100%;
+  }
+  .inputF {
+    width: 90%;
+  }
+  .btnSub {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .btnSub {
+    width: 90%;
+  }
+  .inputF {
+    width: 100%;
+  }
+  .contactTitle {
+    width: 70%;
+    font-size: 2rem;
+  }
+}
